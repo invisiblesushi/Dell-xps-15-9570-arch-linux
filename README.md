@@ -12,9 +12,9 @@ Intel 8750h
 
 /etc/intel-undervolt.conf
 ```
-apply 0 'CPU' -150
-apply 1 'GPU' -25
-apply 2 'CPU Cache' 0
-apply 3 'System Agent' 0
-apply 4 'Analog I/O' 0`
+undervolt 0 'CPU' -150
+undervolt 1 'GPU' -25
+undervolt 2 'CPU Cache' 0
+undervolt 3 'System Agent' 0
+undervolt 4 'Analog I/O' 0
 ```
